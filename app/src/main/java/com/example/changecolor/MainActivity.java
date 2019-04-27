@@ -29,21 +29,21 @@ public class MainActivity extends AppCompatActivity {
 
         int red = ran.nextInt(256);
         txvRed.setText("Red : "+ red);
-        txvRed.setTextColor(Color.argb(150, red, 0, 0));
+        txvRed.setTextColor(Color.rgb(red, 0, 0));
 
         int green = ran.nextInt(256);
-        txvRed.setText("Green : "+ green);
-        txvRed.setTextColor(Color.argb(150, 0, green, 0));
+        txvGreen.setText("Green : "+ green);
+        txvGreen.setTextColor(Color.rgb(0, green, 0));
 
         int blue = ran.nextInt(256);
-        txvRed.setText("Blue : "+ blue);
-        txvRed.setTextColor(Color.argb(150, 0, 0, blue));
+        txvBlue.setText("Blue : "+ blue);
+        txvBlue.setTextColor(Color.rgb(0, 0, blue));
 
         text += red + ", " + green + ", " + blue + ", " + "\n";
         txvShow.setTextSize(16);
         txvShow.setText(text);
         txvShow.setMovementMethod(new ScrollingMovementMethod());
-        txvShow.setBackgroundColor(Color.rgb(red,green,blue));
+        txvShow.setBackgroundColor(Color.argb(150, red,green,blue));
 
     }
 
