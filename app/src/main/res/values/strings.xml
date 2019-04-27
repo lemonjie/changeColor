@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">changeColor</string>
+    <string name="redTextView">Red :</string>
+    <string name="greenTextView">Green :</string>
+    <string name="blueTextView">Blue :</string>
+    <string name="changeColorButton">Change Color</string>
 </resources>

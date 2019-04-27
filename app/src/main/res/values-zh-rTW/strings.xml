@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">changeColor</string>
+    <string name="redTextView">"紅 : "</string>
+    <string name="greenTextView">"綠 : "</string>
+    <string name="blueTextView">"藍 : "</string>
+    <string name="changeColorButton">換顏色</string>
+</resources>
